@@ -1,0 +1,96 @@
+body {
+    background: #f12711;  
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  
+    background: linear-gradient(to right, #f5af19, #f12711); 
+
+    font-family: Arial, sans-serif;
+}
+
+.registerbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.registerbox h1 {
+    font-family: 'Changa One', cursive;
+    font-size: 26px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.registerbox label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+    text-align: left;
+}
+
+.registerbox input[type="text"],
+.registerbox input[type="email"],
+.registerbox select,
+.registerbox input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+}
+
+.registerbox input[type="text"]:focus,
+.registerbox input[type="email"]:focus,
+.registerbox select:focus,
+.registerbox input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.registerbox input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registerbox input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.registerbox select {
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #000000;
+}
+
+.registerbox select::-ms-expand {
+    display: none;
+}
+
+.registerbox select option {
+    background-color: #f7f7f7;
+    color: #555;
+    font-size: 18px;
+}
+
+.registerbox input[type="text"]::placeholder,
+.registerbox input[type="email"]::placeholder,
+.registerbox input[type="password"]::placeholder {
+    color:#aaa;
+}  
