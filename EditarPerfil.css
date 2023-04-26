@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: none;
+  }
+  textarea{
+    display: block;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: none;
+  }
+  input[type="date"] {
+    width: 200px;
+  }
+  
+  .ImagenPerfil {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .ImagenPerfil img {
+    width: 150px;
+    height: 150px;
+    
+  }
+
+  #Preview {
+    width: 200px;
+    height: 200px;
+  }
+  
